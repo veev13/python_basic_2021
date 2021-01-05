@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+p:hover{
+color:blue;
+}
+</style>
+</head>
+<body>
+<p>html: 웹을 작성하는 데에 쓰이는 언어. &lt;태그명&gt;으로 태그를 열고, 닫을 땐 &lt;/태그명&gt;으로 닫는다.</p>
+<p>
+css: 웹 문서의 스타일을 저장하는 스타일시트. 현재 단락의 문자 색깔을 바꾼다든지의 기능, css selector는 스타일을 지정할 요서를 선택할 때 사용한다. p:hover, p#id, p.class 등 
+</p>
+<p onclick="foo()">
+javascript: 웹에서의 상호작용을 담당하는 언어. 해당 단락을 클릭하면 alert가 실행되는 것처럼 온갖 기능을 만들 수 있다.
+</p>
+<p>
+부트스트랩: 프론트엔드 개발을 편리하게 도와주는 오픈소스 프레임워크.
+</p>
+
+<p>
+GET: 서버로부터 정보를 조회하기 위한 메소드. 정보를 전달할 때 주소에 쿼리스트링을 붙여 ?key=value&key2=value2로 전달한다.
+<br>
+POST: 리소스를 생성, 변경하기 위해 설계된 메소드. Http 메시지의 Body에 담아서 전송한다. 길이제한이 있는 GET과는 다르게 대용량 데이터를 전달할 수 있음.
+<br>
+GET은 동일하게 여러번 시도하더라도 결과가 같으나, POST는 생성/변경하는 메소드이기 때문에 다를 수 있다.
+</p>
+</body>
+<script>
+function foo(){
+alert("javascript로 알림");
+}
+</script>
+</html>
